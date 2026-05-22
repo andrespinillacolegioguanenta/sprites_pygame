@@ -19,7 +19,7 @@ class CUADRADO (pygame.sprite.Sprite) :
         self. rect = self. image.get_rect()
         self.rect.x = 200
         self.rect.y = 200
-        self. DESPLAZAMIENTO = 3
+        self. DESPLAZAMIENTO = 1
     def update (self) :
         self. rect.x += self. DESPLAZAMIENTO
 
